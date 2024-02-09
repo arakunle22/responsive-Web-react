@@ -1,0 +1,116 @@
+.featured-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 92px;
+    display: inline-flex;
+  }
+  
+  .featured-image {
+    width: 544px;
+    height: 380px;
+  }
+  
+  .featured-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+    display: inline-flex;
+  }
+  
+  .featured-section {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    display: flex;
+  }
+  
+  .section-title {
+    color: #3A63F3;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 30px;
+    word-wrap: break-word;
+  }
+  
+  .section-subtitle {
+    width: 484px;
+    color: #060A32;
+    font-size: 48px;
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 56px;
+    word-wrap: break-word;
+  }
+  
+  .section-description {
+    width: 544px;
+    opacity: 0.50;
+    color: #060A32;
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 32px;
+    word-wrap: break-word;
+  }
+  
+  .section-divider {
+    align-self: stretch;
+    height: 1px;
+    background: #B5B6BA;
+  }
+  
+  .feature-item {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+  }
+  
+  .feature-icon {
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .icon-background {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+  
+  .icon-middle {
+    width: 11.95px;
+    height: 9.97px;
+    left: 8px;
+    top: 6.03px;
+    position: absolute;
+    background: #3A63F3;
+  }
+  
+  .icon-rectangle {
+    width: 19.95px;
+    height: 20px;
+    left: 2.05px;
+    top: 2px;
+    position: absolute;
+    background: #3A63F3;
+  }
+  
+  .feature-text {
+    color: #060A32;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+  

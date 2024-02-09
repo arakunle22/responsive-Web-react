@@ -1,0 +1,92 @@
+/* AppFeatures2.css */
+.app-container {
+  width: 100%;
+  height: 100%;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  justify-content: center;
+  align-items: center;
+  gap: 92px;
+  display: inline-flex;
+}
+
+.app-column-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+  display: inline-flex;
+}
+
+.app-inner-column-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  display: flex;
+}
+
+.app-title {
+  color: #3A63F3;
+  font-size: 18px;
+  font-family: 'Inter';
+  font-weight: 500;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+.app-main-title {
+  width: 484px;
+  color: #060A32;
+  font-size: 48px;
+  font-family: 'Inter';
+  font-weight: 600;
+  line-height: 56px;
+  word-wrap: break-word;
+}
+
+.app-description {
+  width: 544px;
+  opacity: 0.5;
+  color: #060A32;
+  font-size: 18px;
+  font-family: 'Inter';
+  font-weight: 500;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+.app-download-button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: #3A63F3;
+  box-shadow: 0px 8px 12px rgba(58, 99, 243, 0.16);
+  border-radius: 8px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+}
+
+.app-button-text {
+  color: white;
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.app-horizontal-rule {
+  align-self: stretch;
+  height: 1px;
+  background: #B5B6BA;
+}
+
+.app-image {
+  width: 544px;
+  height: 380px;
+}
