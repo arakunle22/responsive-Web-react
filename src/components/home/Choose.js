@@ -5,7 +5,6 @@ import './Choose.css';
 const Choose = () => {
   return (
     <div className="choose-container">
-      {/* <div className="choose-date">Monday, 29 Jan 2023</div> */}
       <div className="choose-content-container">
         <div className="choose-text-container">
           <div className="choose-title">CHOOSE US</div>

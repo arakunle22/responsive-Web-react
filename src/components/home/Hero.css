@@ -130,7 +130,7 @@
 
   /* ################# Media Query ################### */
 
-@media (max-width: 480px) {
+@media only Screen and (max-width: 480px) {
   .hero-container{
     width: 30%;
   height: 100%;

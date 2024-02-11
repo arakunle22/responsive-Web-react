@@ -37,7 +37,6 @@
   }
   
   .footer-links {
-    /* flex-direction: column; */
     justify-content: flex-start;
     align-items: flex-start;
     gap: 92px;
@@ -143,4 +142,40 @@
     word-wrap: 'break-word'
   }
 
+@media only Screen and (max-width: 480px) {
+  .footer-container {
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    gap: 80px;
+    flex-direction: column-reverse;
+  }
+
+  .footer-logo {
+    gap: 32px;
+    display: inline-flex;
+  }
+
+  .footer-description {
+    width: 250px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
   
+  .footer-links {
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+    display: flex;
+  }
+
+  .footer-newsletter {
+    gap: 12px;
+    width: 280px;
+  }
+
+  .footer-input-container {
+    width: 310px;
+  }
+}

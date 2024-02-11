@@ -1,13 +1,26 @@
 /* YourComponent.css */
 
 .flex-container {
-    width: 100%;
-    height: 100%;
-    padding-top: 64px;
-    padding-bottom: 64px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
+  width: 100%;
+  height: 100%;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+@media only Screen and (max-width: 480px) {
+  .flex-container {
+    padding-top: 24px;
+    padding-bottom: 35px;
+    gap: 45px;
+    flex-wrap: wrap;
   }
-  
+
+  .flex-container .img-logo {
+    width: 1px;
+    height: 1px;
+  }
+}

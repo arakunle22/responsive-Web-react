@@ -8,7 +8,7 @@ const Footer = () => {
         <img src="/Logo 2.png" alt="Logo" />
         <div className="footer-description">
           <div className="footer-description-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Lorem ipsum dolor sit amet, consect etur adipiscing elit.
           </div>
         </div>
         <div className="footer-social">

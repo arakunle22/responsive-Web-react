@@ -85,3 +85,29 @@
     word-wrap: break-word;
   }
   
+
+@media only Screen and (max-width: 480px) {
+  
+  .discovery-box {
+    height: 230px;
+    width: 80%;
+  }
+
+  .discovery-content {
+    gap: 10px;
+  }
+
+  .discovery-title {
+    width: 270px;
+    font-size: 30px;
+    line-height: 28px;
+  }
+
+  .discovery-button {
+    gap: 8px;
+    padding-top: 40px;
+    padding-bottom: 8px;
+  }
+
+  
+}

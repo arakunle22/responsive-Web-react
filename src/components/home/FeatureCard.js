@@ -8,8 +8,8 @@ const FeatureCard = ({ imgSrc, title, description }) => {
       <div className="image-container">
         <img src={imgSrc} alt="Feature" />
       </div>
-      <div className="text-container">
-        <div className="title">{title}</div>
+      <div className="text-containerCard">
+        <div className="title-card">{title}</div>
         <div className="description">{description}</div>
       </div>
     </div>
