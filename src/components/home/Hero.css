@@ -127,3 +127,81 @@
     align-items: center;
     gap: 64px;
   }
+
+  /* ################# Media Query ################### */
+
+@media (max-width: 480px) {
+  .hero-container{
+    width: 30%;
+  height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+  /* float: right; */
+  gap: 10px;
+  padding: 40px 0;
+  margin-top: 12px;
+  }
+
+  .hero-content {
+  gap: 1px;
+  width: 50px;
+    /* position: relative; */
+    /* left: 12rem; */
+  }
+
+  .text-section {
+    /* height: 296px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  gap: 8px;
+  align-items: flex-start;
+  }
+
+  .hero-title {
+    width: 360px;
+  font-weight: 700;
+  line-height: 52px;
+    font-size: 40px;
+  }
+
+  .hero-subtitle {
+    width: 360px;
+    font-size: 15px;
+    
+  }
+
+  .hero-buttons {
+    position: absolute;
+    width: 100%;
+    top: 22rem;
+  }
+
+  .hero-images {
+    position: relative;
+    left: 10.7rem;
+  }
+
+  .hero-left-image {
+    position: absolute;
+    margin-bottom: 7px;
+    left: 0.7rem;
+    /* top: 12rempx; */
+  width: 160px;
+  height: 120px;
+
+}
+.hero-right-image {
+  width: 280px;
+  height: 400px;
+}
+
+.hero-center-placeholder {
+  width: 320px;
+  height: 380px;
+}
+
+  
+}

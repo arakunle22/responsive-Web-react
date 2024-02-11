@@ -12,7 +12,7 @@ const Header = () => {
           <img src="/Logo 1.png" alt="Logo" />
         </a>
       </div>
-
+<div>
       <nav className="navigation">
         <div
           className="menu"
@@ -54,6 +54,7 @@ const Header = () => {
         </ul>
 
       </nav>
+      </div>
     </header>
   );
 };
